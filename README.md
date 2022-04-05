@@ -1,6 +1,6 @@
 # BRYCE ROBINSON
 +1-713-294-3185 | codebybryce@gmail.com | New York, New York 10001 | [Linked In](https://www.linkedin.com/in/brycerobinsondesign/)
-# Front End Designer and Developer
+# Front End Engineer
 ## Summary
 I am an experience designer with 15 years in engineering, looking to pursue my passion of writing code and developing applications.
 
