@@ -1,0 +1,90 @@
+{
+    "name":"Bryce Robinson",
+    "phone-number":"+1-713-294-3185",
+    "email": "codebybryce@gmail.com",
+    "address":"New York, NewYork 10001",
+    "linkedIn": "https://www.linkedin.com/in/brycerobinsondesign/",
+    "title":"Front-end Developer",
+    "summary":"I am a developer with 15 years in product design and implementation. I am looking to pursue my passion of writing code and developing applications where I can learn and work with new technologies.",
+    "technical-skills":[{
+        "front end":[
+           "HTML", "CSS", "Sass", "JavaScript", "React Native", "React JS", "Angular JS", "TypeScript", "Bootstrap", "Material UI", "Styled-Components"
+        ],
+        "back-end":[
+            "Node.js", "Python 3", "Flask", "Django", "Express", "Axios", "SQL", "NoSQL", "GraphQL"
+        ],
+        "Digital Design and Prototyping":[
+            "Adobe Illustrator", "Photoshop", "XD", "Figma", "Procreate"
+        ],
+        "3D Modeling":[
+            "Auto Cad", "Inventor", "Fusion 360", "Blender", "3JS", "Shapr3d"
+        ]
+    }],
+    "work-experience":[
+        {
+            "position":"Senior Front End Developer",
+            "dates": "April 2018 – Current",
+            "company":"Orbital Engineering at Phillips 66",
+            "description":[
+                "Collaborate with clients and site engineers to design and develop automation applications to scale production.",
+                "Conceptualize project needs and develop 3D interactive models, operational dashboard components, and visual UI for various database and API endpoints.",
+                "Programming experience working with React JS, HTML, CSS, JavaScript, REST API, SQL.",
+                "Design experience with Figma, Adobe XD, AutoCAD."
+            ]
+        },
+        {
+            "position":"Senior Designer",
+            "dates":"October 2016, April 2018",
+            "company":"Allied Engineering",
+            "description":[
+                "Design and implicate PLC management components for Infinium’s operational units.",
+                "Daily work with design software such as AutoCAD, Fusion360, Pro Engineer.",
+                "Provided client support on automation and control systems, such as Emerson’s Delta V, and Siemens PLC’s"
+            ]
+        },
+        {
+            "position":"Senior Applications Designer",
+            "dates":"January 2012, October 2016",
+            "company":"Conoco Phillips",
+            "description":[
+                "Responsible for developing graphical interfaces for internal automation applications.",
+                "Worked with vendors and global engineering teams to finalize a corporate document management app.",
+                "Developed detailed AutoCAD drawings, specifications, and schematics for large scope projects."
+
+            ]
+        }
+
+    ],
+    "Other":[
+        {
+            "title":"Amazon FBA",
+            "description":"Bootstrapped and built 2 successful Amazon FBA businesses. I learned the intricacies of developing a product, sourcing overseas manufacturers, Search Engine Optimization and Advertising."
+        },
+        {
+            "title":"Freelance Web Developer",
+            "description":"While searching for a medium to express my creativity and love for writing code, I stumbled across Fiverr.com; where I maintain a 5-star rating in Web Development and Python Scripting."
+        },
+        {
+            "title":"Artworks",
+            "description":"As a creative, I enjoy discovering new ways to express myself. I use machine programming and 3D printers in my work, which has been shown in galleries and found around the world."
+        }
+    ],
+    "Education":[
+        {
+            "school":"San Jacinto College",
+            "studies":"Computer Engineering, Digital Design Graphics",
+            "dates": "2011"
+        },
+        {
+            "school":"University of Houston",
+            "studies":"Electrical Engineering",
+            "dates": "2006"
+        },
+        {
+            "school":"Code Academy",
+            "studies":"CS, Python 2/3, JavaScript",
+            "dates": "2006"
+        }
+    ]
+
+}
