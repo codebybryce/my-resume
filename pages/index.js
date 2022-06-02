@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import { useState, useEffect } from 'react'
-import { AiOutlineLinkedin, AiOutlineHome, AiOutlinePhone, AiOutlineMail, AiOutlineFilePdf, } from 'react-icons/ai'
+import { AiOutlineLinkedin, AiOutlineHome, AiOutlinePhone, AiOutlineMail, AiOutlineDownload } from 'react-icons/ai'
 
 
 export default function Home() {
   const [resume, setResume] = useState({})
   const [theme, setTheme] = useState('dark')
+  const [loaded, setLoaded]= useState()
   const Data = async () => {
     await fetch('/api/bryce-robinson')
       .then(response => response.json())
@@ -18,6 +19,7 @@ export default function Home() {
     Data()
   }, [])
   return (
+
     <div className={theme}>
       <Head>
         <title>Bryce Robinson {'|'} Front End Developer</title>
@@ -31,7 +33,7 @@ export default function Home() {
             <h1 id='name'>{resume.name}</h1>
             <h2>{resume.title}</h2>
             <a href='https://github.com/codebybryce/my-resume/raw/main/Bryce%20Robinson.pdf' download='Bryce_Robinson_Resume'>
-              Download PDF
+              <AiOutlineDownload />
               </a>
           </div>
           <div id='contact-info' className='content'>
