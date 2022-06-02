@@ -1,43 +1,34 @@
-# BRYCE ROBINSON
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-+1-713-294-3185 | <codebybryce@gmail.com> | New York, New York 10001 | [linkedIn: brycerobinsondesign](https://www.linkedin.com/in/brycerobinsondesign/)
-## Front End / Back End Developer
-## Summary
-I am a developer with 15 years in product design and implementation. I am looking to pursue my passion of writing code and developing applications where I can learn and work with new technologies.
-## Technical Skills                 
-### *Programming*
-React JS, Angular JS, Next JS, Gatsby JS, Node JS, JavaScript, Typescript, HTML, CSS, SASS, Flask, Django, Python, CRUD applications, Firebase, Docker, MongoDB, SQL, NoSQL.
-### *Graphical Design*
-Adobe Illustrator, Photoshop, After Effect, XD, In Design, Figma, Blender, Auto Cad 3D, Inventor, Fusion360
-## Work Experience
-### Senior UX Engineer	April 2018 – Current   
-*Orbital Engineering at Phillips 66*
+## Getting Started
 
-- Collaborate with clients and site engineers to design and develop automation applications to scale production. 
-- Conceptualize project needs and develop 3D interactive models, operational dashboard components, and visual UI for various database and API’s needs. 
-- Programming experience working with JavaScript, REST API, SQL, React.
-- Design experience with Figma, Adobe XD, AutoCAD.
-### Senior Designer	October 2016, April 2018
-*Allied Engineering*	
+First, run the development server:
 
-- Design and implicate PLC management components for Infinium’s operational units.  
-- Daily work with design software such as AutoCAD, Fusion360, Pro Engineer.
-- Provided client support on automation and control systems, such as Emerson’s Delta V, and Siemens PLC’s
-### Senior Applications Designer	January 2012, October 2016
-*Conoco Phillips*											
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-- Responsible for developing graphical interfaces for internal automation applications. 
-- Worked with vendors and global engineering teams to finalize a corporate document management app.
-- Developed detailed AutoCAD drawings, specifications, and schematics for large scope projects.
-## Other Professional Experience
-**Amazon FBA** - Bootstrapped and built 2 successful Amazon FBA businesses.  I learned the intricacies of developing a product, sourcing overseas manufacturers, Search Engine Optimization and Advertising.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-**Freelance Web Developer** – While searching for a medium to express my creativity and love for writing code, I stumbled across Fiverr.com; where I maintain a 5-star rating in **Web Development** and **Python** Scripting.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-**Artworks** – As a creative, I enjoy discovering new ways to express myself.  I use machine programming and 3D printers in my work, which has been shown in galleries and found around the world.
-## Education
-University of Houston 	Electrical Engineering
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-San Jacinto College		Digital Design Graphics
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-Code Academy 		Computer Science
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
