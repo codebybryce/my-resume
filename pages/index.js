@@ -2,8 +2,6 @@ import Head from 'next/head'
 import Script from 'next/script'
 import { useState, useEffect } from 'react'
 import { AiOutlineLinkedin, AiOutlineHome, AiOutlinePhone, AiOutlineMail, AiOutlineDownload } from 'react-icons/ai'
-
-
 export default function Home() {
   const [resume, setResume] = useState({})
   const [theme, setTheme] = useState('dark')
@@ -19,22 +17,24 @@ export default function Home() {
     Data()
   }, [])
   return (
-
-    <div className={theme}>
-      <Head>
+    <>
+    <Head>
         <title>Bryce Robinson {'|'} Front End Developer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <meta name="theme-color" content="#E6F6CD"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <article >
-          <div >
+      <main>
+          <div id='name-and-title'>
             <h1 id='name'>{resume.name}</h1>
             <h2>{resume.title}</h2>
-            <a href='https://github.com/codebybryce/my-resume/raw/main/Bryce%20Robinson.pdf' download='Bryce_Robinson_Resume'>
+              
+            <button href='https://github.com/codebybryce/my-resume/raw/main/Bryce%20Robinson.pdf' download='Bryce_Robinson_Resume'>
+            <div className='flex-and-left-center'>
               <AiOutlineDownload />
-              </a>
+              <p style={{color:'var(--dark-primary)'}}>Download</p>
+            </div>
+              </button>
           </div>
           <div id='contact-info' className='content'>
             <h3>Contact Info</h3>
@@ -68,19 +68,28 @@ export default function Home() {
             </h3>
             {resume.summary}
           </div>
-          <div id='other-experience' className='content'>
-            <h3>Other Professional Experience</h3>
-            {resume.Other?.map((val, key) => {
+          <div id='tech-skills' className='content'>
+            <h3>Technical Skills</h3>
+            {resume.technicalSkills?.map((val, key) => {
               return (
-                <>
+                <div className='inner-content' key={key}>
                   <h4>
                     {val.title}
-                  </h4>{val.description}
-                </>
+                  </h4>
+                  <ul className='flex-area'>
+                    {val.skills.map((i) => {
+                      return (
+                        <>
+                          <li className='boxed-item'>{i}</li>
+                        </>
+                      )
+                    })}
+                  </ul>
+                </div>
               )
             })}
           </div>
-          <div className='content'>
+          <div id='work-experience' className='content'>
             <h3>
               Work Experience
             </h3>
@@ -104,49 +113,39 @@ export default function Home() {
               )
             })}
           </div>
-          <div id='tech-skills' className='content'>
-            <h3>Technical Skills</h3>
-            {resume.technicalSkills?.map((val, key) => {
+          <div id='other-experience' className='content'>
+            <h3>Other Professional Experience</h3>
+            {resume.Other?.map((val, key) => {
               return (
-                <>
+                <div className='inner-content' key={key}>
                   <h4>
                     {val.title}
-                  </h4>
-                  <ul className='flex-area'>
-                    {val.skills.map((i) => {
-                      return (
-                        <>
-                          <li className='boxed-item'>{i}</li>
-                        </>
-                      )
-                    })}
-                  </ul>
-                </>
+                  </h4>{val.description}
+
+                </div>
+                
               )
             })}
           </div>
-          <div className='content'>
+          <div id='education' className='content'>
             <h3>Education</h3>
             {resume.Education?.map((val, key) => {
               return (
-                <>
-                  <div key={key} >
+                  <div className='inner-content' key={key} >
                     <h4>
                       {val.school}
                     </h4>
                     {val.studies}{" "}
                     {val.dates}
                   </div>
-                </>
               )
             })}
           </div>
-        </article>
         <footer>
           Made with React and Next JS <br />
           copyright © {year} codebybryce
         </footer>
-      </div>
-    </div>
+        </main>
+        </>
   )
 }

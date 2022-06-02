@@ -14,8 +14,16 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     width: min(1000px, calc(70% * 100px));
   background-color: var(--dark-background);
+  color:var(--dark-white)
 
     
+}
+
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
 }
 
 h1{
@@ -50,7 +58,8 @@ p, html{
 a {
   color: var(--dark-white);
   text-decoration: none;
-  transition:2ms
+  transition:2ms;
+  width:max-content;
   
 
 }
@@ -63,7 +72,7 @@ ul{
   list-style-type:none;
   padding:0
 }
-article{
+main{
   max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
@@ -92,8 +101,8 @@ header{
 
 div.flex-and-left-center{
   display: flex;
+  width:max-content;
   align-items: center;
-  height: max-content;
   flex-direction: row;
   justify-content: flex-start;
 }
@@ -162,7 +171,7 @@ div.inner-content{
 }
 @media screen and (max-width:1440px) {
 
-  article{
+  main{
     padding: 0 2rem
   }
   
