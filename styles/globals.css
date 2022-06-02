@@ -13,7 +13,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     width: min(1000px, calc(70% * 100px));
-  padding-top:1rem;
   background-color: var(--dark-background);
 
     
