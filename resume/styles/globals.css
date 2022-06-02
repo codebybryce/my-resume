@@ -15,6 +15,7 @@ body {
     width: min(1000px, calc(70% * 100px));
   padding-top:1rem;
   background-color: var(--dark-background);
+
     
 }
 
@@ -36,28 +37,33 @@ h3{
 h4{
   font-size: clamp(1rem, 1.5vw, 2rem);
   margin-bottom: .5rem;
+  color:var(--dark-primary)
 }
 p, html{
-  font-size: max(1.2rem, 1.5vw);
+  font-size: max(1rem, 1.2vw);
 }
+::-webkit-scrollbar{
+  display: none;
+}
+
 
 
 a {
-  color: inherit;
+  color: var(--dark-white);
   text-decoration: none;
+  transition:2ms
+  
+
+}
+a:hover{
+  color:var(--dark-primary);
+  transition:2ms
 }
 
 ul{
   list-style-type:none;
   padding:0
 }
-li{
-}
-/* @media only screen and (min-width: 600){
-  article{
-    max-width: 600px;
-  }
-} */
 article{
   max-width: 1440px;
   margin-right: auto;
@@ -85,7 +91,29 @@ header{
 
 }
 
+div.flex-and-left-center{
+  display: flex;
+  align-items: center;
+  height: max-content;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 
+
+svg{
+  color: var(--dark-primary);
+  margin: .5rem;
+}
+
+.download{
+  color:#DAF9A7;
+  width: max-content;
+
+}
+.download:hover{
+  opacity:1;
+  transition: .2s
+}
 
 div.content{
   padding: 1rem;
@@ -94,6 +122,11 @@ div.content{
   border-radius: .5rem;
   
 }
+
+div.inner-content{
+  margin-bottom: 1rem;
+}
+
 .dark{
   background:var(--dark-background);
   color:var(--dark-white);
@@ -124,7 +157,7 @@ div.content{
  
   padding: .5rem;
   width:  max-content;
-  border: 2px solid var(--dark-primary);
+  border: 2px solid var(--dark-white);
   border-radius: .5rem;
   margin: .5rem .5rem .5rem 0;
 }
