@@ -85,7 +85,7 @@ export default function Home() {
             {resume["work-experience"]?.map((val, key) => {
               return (
                 <>
-                  <div className='inner-content'>
+                  <div key={key} className='inner-content'>
                     <div>
                       <h4>
                         {val.company}
@@ -93,8 +93,8 @@ export default function Home() {
                       {val.dates}
                     </div>
                     <ul>
-                      {val.description.map((val) => {
-                        return (<li>{val}</li>)
+                      {val.description.map((val, key) => {
+                        return (<li key={key} >{val}</li>)
                       })}
                     </ul>
                   </div>
@@ -128,7 +128,7 @@ export default function Home() {
             {resume.Education?.map((val, key) => {
               return (
                 <>
-                  <div>
+                  <div key={key} >
                     <h4>
                       {val.school}
                     </h4>
