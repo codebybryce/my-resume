@@ -1,12 +1,10 @@
 import Head from 'next/head'
-import Script from 'next/script'
-import { useState, useEffect } from 'react'
-import { AiOutlineLinkedin, AiOutlineHome, AiOutlinePhone, AiOutlineMail, AiOutlineDownload } from 'react-icons/ai'
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
+import { AiOutlineDownload, AiOutlineHome, AiOutlineLinkedin, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai'
 export default function Home() {
   const [resume, setResume] = useState({})
   const [theme, setTheme] = useState('dark')
-  const [loaded, setLoaded] = useState()
   const Data = async () => {
     await fetch('/api/bryce-robinson')
       .then(response => response.json())
@@ -99,7 +97,7 @@ export default function Home() {
             Work Experience
           </h3>
           {resume["work-experience"]?.map((val, key) => {
-            console.log(val)
+            
             return (
               <>
                 <div key={key} className='inner-content'>
