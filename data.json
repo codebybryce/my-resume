@@ -9,7 +9,7 @@
     "technicalSkills":[
         {
         "title":"Front-End",
-        "skills":["HTML", "CSS", "Sass", "JavaScript", "React Native", "React JS", "Angular JS", "TypeScript", "Bootstrap", "Material UI", "Styled-Components"]
+        "skills":["HTML", "CSS", "Sass", "JavaScript", "React Native", "React JS", "Angular JS", "TypeScript", "Bootstrap", "Material UI", "Styled-Components", "AG-Grid", "Redux"]
         },
         {
         "title":"Back-End",
@@ -27,8 +27,19 @@
     ],
     "work-experience":[
         {
+            "position":"Senior UI Developer",
+            "dates": "May 2022 – Current",
+            "company":"Bank of America",
+            "description":[
+                "Working in an agile environment with 2 week sprints, I've built UI features to support Bank of America's Fixed Income Business group",
+                "As a Senior UI developer, I've created and managed BitBucket repositories and built JIRA ticket pipelines",
+                "I've excelled in collaborating with different business groups, UI Designers and Backend Engineers to deliver innovative UI features",
+                "Daily experience with React JS, CSS/LESS, API requests with AXIOS, Node backend servers, JEST testing, GIT management, and JIRA maintenance"
+            ]
+        },
+        {
             "position":"Senior UI/UX Engineer",
-            "dates": "April 2018 – Current",
+            "dates": "April 2018 – May 2022",
             "company":"Orbital Engineering at Phillips 66",
             "description":[
                 "Collaborate with clients, vendors, and site engineers to develop automation applications that optimize and scale production.",
