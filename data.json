@@ -1,109 +1,150 @@
 {
-    "name":"Bryce Robinson",
-    "phone-number":"+1-713-294-3185",
+    "name": "Bryce Robinson",
+    "phone-number": "+1-713-294-3185",
     "email": "codebybryce@gmail.com",
-    "address":"New York, New York",
+    "address": "New York, New York",
     "linkedIn": "https://www.linkedin.com/in/codebybryce/",
-    "github":"https://github.com/codebybryce",
-    "website":"https://www.codebybryce.com",
-    "google-docs":"https://docs.google.com/document/d/19n3UsXN2XBmHphET3_vHBLQhHt3r4pB8oVrbtHAyuoU/edit?usp=sharing",
-    "title":"Frontend Developer",
-    "summary":"I am a developer with 15 years in product design and implementation. I am looking to pursue my passion of writing code and developing applications where I can learn and work with new technologies.",
-    "technicalSkills":[
+    "github": "https://github.com/codebybryce",
+    "website": "https://www.codebybryce.com",
+    "google-docs": "https://docs.google.com/document/d/1-2chUp1JlM832Cw4sa38GWj_UxntVn9IlGE7L2v-XaE/edit?usp=sharing",
+    "title": "Front End Developer",
+    "summary": "Front End Developer with over a decade of experience in utilizing JavaScript, Python, React, and other cutting-edge frameworks. I am seeking a challenging senior role where I can leverage my skills to drive design, development and contribute to innovative product",
+    "technicalSkills": [
         {
-        "title":"Front-End",
-        "skills":["HTML", "CSS", "Sass", "JavaScript", "React Native", "React JS", "Angular JS", "TypeScript", "Bootstrap", "Material UI", "Styled-Components", "AG-Grid", "Redux"]
-        },
-        {
-        "title":"Back-End",
-        "skills":["Node.js", "Python 3", "Flask", "Django", "Express", "Axios", "SQL", "NoSQL", "GraphQL"]
-        },
-        {
-        "title":"Digital Design",
-        "skills":["Adobe Illustrator", "Photoshop", "XD", "Figma", "Procreate"]
-        },
-        {
-        "title":"CAD and 3D Modeling",
-        "skills":["Auto Cad", "Inventor", "Fusion 360", "Blender", "3JS", "Shapr3d"]
-        }
-        
-    ],
-    "work-experience":[
-        {
-            "position":"Senior UI Developer",
-            "dates": "May 2022 – Current",
-            "company":"Bank of America",
-            "description":[
-                "Working in an agile environment with 2 week sprints, I've built UI features to support Bank of America's Fixed Income Business group",
-                "As a Senior UI developer, I've created and managed BitBucket repositories and built JIRA ticket pipelines",
-                "I've excelled in collaborating with different business groups, UI Designers and Backend Engineers to deliver innovative UI features",
-                "Daily experience with React JS, CSS/LESS, API requests with AXIOS, Node backend servers, JEST testing, GIT management, and JIRA maintenance"
+            "title": "Front-End",
+            "skills": [
+                "HTML",
+                "CSS",
+                "Sass",
+                "Less",
+                "JavaScript",
+                "React Native",
+                "React JS",
+                "Angular JS",
+                "TypeScript",
+                "Bootstrap",
+                "Material UI",
+                "Styled-Components",
+                "AG-Grid",
+                "Redux"
             ]
         },
         {
-            "position":"Senior UI/UX Engineer",
-            "dates": "April 2018 – May 2022",
-            "company":"Orbital Engineering at Phillips 66",
-            "description":[
-                "Collaborate with clients, vendors, and site engineers to develop automation applications that optimize and scale production.",
-                "Conceptualize project needs and develop 3D interactive models, operational dashboard components, and visual UI for various database and API endpoints.",
-                "Programming experience working with React JS, HTML, CSS, JavaScript, REST API, SQL.",
-                "Design experience with Figma, Adobe XD, AutoCAD."
+            "title": "Back-End",
+            "skills": [
+                "Node.js",
+                "Python 3",
+                "Flask",
+                "Django",
+                "Express",
+                "Axios",
+                "SQL",
+                "NoSQL",
+                "GraphQL"
             ]
         },
         {
-            "position":"Senior Designer",
-            "dates":"October 2016 - April 2018",
-            "company":"Allied Engineering",
-            "description":[
-                "Design and implicate PLC management components for Infinium’s operational units.",
-                "Daily work with design software such as AutoCAD, Fusion360, Pro Engineer.",
-                "Provided client support on automation and control systems, such as Emerson’s Delta V, and Siemens PLC’s"
+            "title": "Digital Design",
+            "skills": [
+                "Adobe Illustrator",
+                "Photoshop",
+                "XD",
+                "Figma",
+                "Procreate"
             ]
         },
         {
-            "position":"Senior Applications Designer",
-            "dates":"January 2012 - October 2016",
-            "company":"Conoco Phillips",
-            "description":[
-                "Responsible for developing graphical interfaces for internal automation applications.",
-                "Worked with vendors and global engineering teams to finalize a corporate document management app.",
-                "Developed detailed AutoCAD drawings, specifications, and schematics for large scope projects."
-
+            "title": "CAD and 3D Modeling",
+            "skills": [
+                "Auto Cad",
+                "Inventor",
+                "Fusion 360",
+                "Blender",
+                "3JS",
+                "Shapr3d"
             ]
         }
-
     ],
-    "Other":[
+    "work-experience": [
         {
-            "title":"Amazon FBA",
-            "description":"Bootstrapped and built 2 successful Amazon FBA businesses. I learned the intricacies of developing a product, sourcing overseas manufacturers, Search Engine Optimization and Advertising."
+            "position": "Senior UI Developer, Architect III",
+            "dates": "June 2022 – Current",
+            "company": "Bank of America",
+            "description": [
+                "Develop and maintain the front-end of a high-volume, low-latency trading application using React.js.",
+                "Collaborated with cross-functional teams to deliver new features catering to global trades processing.",
+                "Implemented real-time data streaming through WebSockets and XA Messaging.",
+                "Conducted extensive unit testing and user interviews to refine UI/UX requirements.",
+                "Optimized application's performance to handle large amounts of fixed income data.",
+                "Presented demos of new features and obtained valuable feedback from stakeholders.",
+                "Introduced a testing framework using Cypress, Jest and React Testing Library.",
+                "Provided support in migration of legacy code to modern JavaScript frameworks.",
+                "Helped Facilitate daily stand-ups and code sprints within an Agile team."
+            ]
         },
         {
-            "title":"Freelance Web Developer",
-            "description":"While searching for a medium to express my creativity and love for writing code, I stumbled across Fiverr.com; where I maintain a 5-star rating in Web Development and Python Scripting."
+            "position": "Senior UI/UX Engineer",
+            "dates": "April 2018 – June 2022",
+            "company": "Orbital Engineering at Phillips 66",
+            "description": [
+                "Built micro frontends to support large data streams using Python and React JS.",
+                "Built numerous API endpoints to allow users to communicate with plant I/O.",
+                "Conduct extensive testing and debugging to ensure smooth performance across all supported devices.",
+                "Drive the implementation of modern front-end development practices and trends.",
+                "Work closely with stakeholders to deliver solutions that meet business objectives and user needs."
+            ]
         },
         {
-            "title":"Artworks",
-            "description":"As a creative, I enjoy discovering new ways to express myself. I use machine programming and 3D printers in my work, which has been shown in galleries and found around the world."
+            "position": "Senior Product Designer",
+            "dates": "October 2016 - April 2018",
+            "company": "Allied Engineering",
+            "description": [
+                "Spearheaded the design and implementation of cloud based architectures.",
+                "Managed database systems and utilized SQL for database queries and manipulation.",
+                "Developed custom software solutions using Python and JavaScript to aid in plant optimization.",
+                "Collaborated with multidisciplinary teams, providing expertise on control system design."
+            ]
+        },
+        {
+            "position": "Product Designer",
+            "dates": "January 2012 - October 2016",
+            "company": "Conoco Phillips",
+            "description": [
+                "Collaborate effectively with cross-functional teams, including production, maintenance, and IT.",
+                "Troubleshoot and resolve system issues promptly to minimize downtime and maximize productivity.",
+                "Leveraged strong problem-solving skills to diagnose complex control system issues"
+            ]
         }
     ],
-    "Education":[
+    "Other": [
         {
-            "school":"San Jacinto College",
-            "studies":"Computer Engineering, Digital Design Graphics",
+            "title": "Amazon FBA",
+            "description": "Bootstrapped and built 2 successful Amazon FBA businesses. I learned the intricacies of developing a product, sourcing overseas manufacturers, Search Engine Optimization and Advertising."
+        },
+        {
+            "title": "Freelance Web Developer",
+            "description": "While searching for a medium to express my creativity and love for writing code, I stumbled across Fiverr.com; where I maintain a 5-star rating in Web Development and Python Scripting."
+        },
+        {
+            "title": "Artworks",
+            "description": "As a creative, I enjoy discovering new ways to express myself. I use machine programming and 3D printers in my work, which has been shown in galleries and found around the world."
+        }
+    ],
+    "Education": [
+        {
+            "school": "San Jacinto College",
+            "studies": "Computer Science, Digital Design Graphics",
             "dates": "2011"
         },
         {
-            "school":"University of Houston",
-            "studies":"Electrical Engineering",
+            "school": "University of Houston",
+            "studies": "Electrical Engineering",
             "dates": "2006"
         },
         {
-            "school":"Code Academy",
-            "studies":"CS, Python 2/3, JavaScript",
+            "school": "Code Academy",
+            "studies": "CS, Python 3, JavaScript",
             "dates": "2006"
         }
     ]
-
 }

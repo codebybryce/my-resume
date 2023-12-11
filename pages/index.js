@@ -97,7 +97,7 @@ export default function Home() {
             Work Experience
           </h3>
           {resume["work-experience"]?.map((val, key) => {
-            
+
             return (
               <>
                 <div key={key} className='inner-content'>
@@ -108,7 +108,9 @@ export default function Home() {
                     <p>
                       {val.company}
                     </p>
-                    {val.dates}
+                    <p className="italics">
+                      {val.dates}
+                    </p>
                   </div>
                   <ul>
                     {val.description.map((val, key) => {
