@@ -28,7 +28,7 @@ export default function Home() {
           <h1 id='name'>{resume.name}</h1>
           <h2>{resume.title}</h2>
           <div className='flex-apart'>
-            <button onClick={() => window.open('https://github.com/codebybryce/my-resume/raw/main/Bryce%20Robinson.pdf')}>
+            <button onClick={() => window.open('https://docs.google.com/document/d/1-2chUp1JlM832Cw4sa38GWj_UxntVn9IlGE7L2v-XaE/edit?usp=sharing')}>
               <div className='flex-and-left-center'>
                 <AiOutlineDownload />
                 <p style={{ color: 'var(--dark-primary)' }}>Download</p>
@@ -97,7 +97,7 @@ export default function Home() {
             Work Experience
           </h3>
           {resume["work-experience"]?.map((val, key) => {
-            
+
             return (
               <>
                 <div key={key} className='inner-content'>
@@ -108,7 +108,9 @@ export default function Home() {
                     <p>
                       {val.company}
                     </p>
-                    {val.dates}
+                    <p className="italics">
+                      {val.dates}
+                    </p>
                   </div>
                   <ul>
                     {val.description.map((val, key) => {

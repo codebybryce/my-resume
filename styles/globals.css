@@ -229,7 +229,9 @@ div.inner-content {
   left: 56px;
   animation-delay: -1.6s;
 }
-
+.italics{
+  font-style: italic;
+}
 @keyframes lds-grid {
   0%,
   100% {
