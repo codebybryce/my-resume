@@ -28,7 +28,7 @@ export default function Home() {
           <h1 id='name'>{resume.name}</h1>
           <h2>{resume.title}</h2>
           <div className='flex-apart'>
-            <button onClick={() => window.open('https://docs.google.com/document/d/1-2chUp1JlM832Cw4sa38GWj_UxntVn9IlGE7L2v-XaE/edit?usp=sharing')}>
+          <button onClick={() => window.open('https://github.com/codebybryce/my-resume/raw/main/Bryce%20Robinson.pdf')}>
               <div className='flex-and-left-center'>
                 <AiOutlineDownload />
                 <p style={{ color: 'var(--dark-primary)' }}>Download</p>
