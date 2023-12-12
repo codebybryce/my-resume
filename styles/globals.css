@@ -74,7 +74,7 @@ ul {
   padding: 0;
 }
 main {
-  max-width: 1440px;
+  max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -101,9 +101,11 @@ div.flex-and-left-center {
 }
 div.flex-apart {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   align-content: center;
+
+  
 }
 svg {
   color: var(--dark-primary);
